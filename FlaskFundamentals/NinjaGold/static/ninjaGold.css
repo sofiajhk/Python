@@ -1,0 +1,45 @@
+*{
+    vertical-align: baseline;
+    font-style: inherit;
+    border: 0 none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#wrapper{
+    width: 1000px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.building{
+    outline: 1px solid black;
+    width: 240px;
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+}
+
+#activity_log{
+    outline: 1px solid black;
+    width: 970px;
+    height: 200px;
+    overflow: scroll;
+}
+
+#won{
+    color: green;
+}
+
+#lost{
+    color: red;
+}
+
+input{
+    outline: 1px solid black;
+    padding: 4px;
+    margin: 10px;
+}
+
+h1{
+    margin: 10px;
+}

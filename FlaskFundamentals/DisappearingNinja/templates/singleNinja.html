@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/disappearingNinja.css') }}">
+    <title>Individual Ninjas</title>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>This ninja is...</h1>
+        {% if color == "blue" %}
+            <img src="{{ url_for('static', filename='img/leonardo.jpg') }}">
+            <h1>LEONARDO!</h1>
+        {% elif color == "red" %}
+            <img src="{{ url_for('static', filename='img/raphael.jpg') }}">
+            <h1>RAPHAEL!</h1>
+        {% elif color == "orange" %}
+            <img src="{{ url_for('static', filename='img/michelangelo.jpg') }}">
+            <h1>MICHAELANGELO!</h1>
+        {% elif color == "purple" %}
+            <img src="{{ url_for('static', filename='img/donatello.jpg') }}">
+            <h1>DONATELLO!</h1>
+        {% else %}
+            <img src="{{ url_for('static', filename='img/notapril.jpg') }}">
+            <p>This is not a member of the ninja turtles!</p>
+        {% endif %}
+    </div>
+</body>
+</html>

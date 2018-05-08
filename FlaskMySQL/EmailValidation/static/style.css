@@ -1,0 +1,28 @@
+*{
+    vertical-align: baseline;
+    font-style: inherit;
+    border: 0 none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#wrapper{
+    width: 900px;
+    text-align: center;
+    padding: 10px;
+}
+
+input{
+    outline: 1px solid black;
+    padding: 2px;
+}
+
+#error{
+    font-weight: bold;
+    color: red;
+}
+
+#success{
+    font-weight: bold;
+    color: green;
+}

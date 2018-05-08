@@ -1,0 +1,42 @@
+*{
+    vertical-align: baseline;
+    font-style: inherit;
+    border: 0 none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+input{
+    outline: 1px solid black;
+    padding: 3px;
+}
+
+#wrapper{
+    width: 550px;
+    padding: 10px;
+    text-align: center;
+}
+
+.wrong{
+    width: 200px;
+    height: 200px;
+    background-color: maroon;
+    margin-top: 20px;
+
+}
+
+    .wrong h1{
+        padding-top: 50px;
+    }
+
+#correct{
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    margin-top: 20px;
+
+}
+
+    #correct h1{
+        padding-top: 50px;
+    }

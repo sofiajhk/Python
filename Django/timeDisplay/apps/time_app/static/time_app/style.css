@@ -1,0 +1,24 @@
+*{
+    vertical-align: top;
+    font-style: inherit;
+    border: 0 none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#wrapper{
+    width: 1000px;
+    text-align: center;
+    padding: 10px;
+}
+
+#header{
+    width: 300px;
+    outline: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#dtime{
+    width: 400px;
+    outline: 1px solid black;
+}
